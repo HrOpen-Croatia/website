@@ -1,0 +1,187 @@
+{{ define "main" }}
+
+<h1>Croatian Society for Open Systems and Internet</h1>
+
+<p>
+    In order to successfully respond to the challenge of open systems, users
+    typically come together in independent associations. Thus, at the end of
+    1992, the Croatian Open Systems Users’ Group (HrOpen) was founded. Since
+    2001, the association has been called the Croatian Society for Open Systems
+    and Internet.
+</p>
+<p>
+    HrOpen is a self-financing, non-profit association established following the
+    example of similar European national associations. From 1993 to 1998, HrOpen
+    was a full member of the <b>European Forum for Open Systems</b> (EurOpen),
+    and since June 2010, it has been a member of OpenForum Europe, headquartered
+    in Brussels.
+</p>
+
+<h2>Our areas of activity:</h2>
+<ul>
+    <li>
+        <strong>Informs</strong> – HrOpen collects and forwards information in
+        the field of open systems technology and products through the activities
+        of its members and partner portals, via the Association’s website, and
+        through the organization of conferences and smaller educational events,
+    </li>
+    <li>
+        <strong>Researches and monitors</strong> trends in the latest
+        achievements in information technologies,
+    </li>
+    <li>
+        <strong>Connects</strong>, enabling contacts with other members who have
+        similar interests or have already solved your problem,
+    </li>
+    <li>
+        <strong>Serves as an information hub</strong> for new technologies, an
+        intermediary between members, development teams, and manufacturers,
+    </li>
+    <li>
+        <strong>Supports</strong> – represents the common interests of its
+        members and acts as a proposer of possible solutions,
+    </li>
+    <li>
+        <strong>Enables information exchange</strong> – the obligation of
+        information producers is to provide access to information, and the
+        obligation of recipients is to benefit from it,
+    </li>
+    <li>
+        <strong>Network information services</strong> available on the Internet,
+    </li>
+    <li>
+        <strong>Seminars and training</strong> – ensuring improvement in key
+        areas of interest with a neutral approach,
+    </li>
+    <li><strong>Establishes contacts</strong> with open systems experts.</li>
+</ul>
+
+<p>
+    HrOpen is not focused only on new technologies; open systems imply open
+    computer systems but also open-minded people who use them.
+</p>
+
+<p>
+    From its very foundation, HrOpen has advocated and implemented the idea that
+    all members must have a user account, certain disk space, email, and access
+    to network information services (World Wide Web – WWW, etc.). Such an
+    approach enables building a solid foundation for practicing and acquiring
+    knowledge in sending, receiving, and using information in (from) the open
+    world, as well as in the daily interaction of open systems users within the
+    Association.
+</p>
+
+<hr />
+
+<h2>Governing bodies of the Association</h2>
+
+<h3>Management Board</h3>
+<ul>
+    <li>
+        Dr. Svebor Prstačić, Faculty of Electrical Engineering and Computing,
+        <strong>President</strong>
+    </li>
+    <li>
+        Andrei Zvonimir Crnković, Certified Accountant, Pametno Računovodstvo
+        d.o.o., <strong>Vice President</strong>
+    </li>
+    <li>
+        Darko Grabar, MSc in Informatics, Faculty of Organization and
+        Informatics, <strong>Vice President</strong>
+    </li>
+    <li>
+        Dobrica Pavlinušić, MSc in Informatics, Faculty of Humanities and Social
+        Sciences Library, <strong>Vice President</strong>
+    </li>
+    <li>
+        Valerija Olić, MSc in Urban Forestry Engineering,
+        <strong>Secretary</strong>, Faculty of Electrical Engineering and
+        Computing
+    </li>
+    <li>Ivona Tenšek, Master of Law, Catholic University of Croatia</li>
+    <li>
+        Jasmin Klindžić, Faculty of Humanities and Social Sciences, University
+        of Zagreb
+    </li>
+    <li>
+        Assistant Professor Dr. Tomislav Jagušt, Faculty of Electrical
+        Engineering and Computing
+    </li>
+    <li>
+        Associate Professor Dr. Ivana Bosnić, Faculty of Electrical Engineering
+        and Computing
+    </li>
+</ul>
+
+<h3>Supervisory Board</h3>
+<ul>
+    <li>
+        Kristijan Zimmer, MSc in Engineering, Croatian IT Association,
+        <strong>President</strong>
+    </li>
+    <li>Dr. Zoran Bekić, University Computing Centre – Srce</li>
+    <li>
+        Professor Dr. Dragutin Kermek, Faculty of Organization and Informatics
+    </li>
+    <li>Marijana Glavica, Faculty of Humanities and Social Sciences Library</li>
+    <li>Slobodan Juračić, City of Opatija</li>
+    <li>
+        Marko Tucaković, MSc in Library Science, Faculty of Electrical
+        Engineering and Computing
+    </li>
+    <li>Hrvoje Bogner, Open IT</li>
+</ul>
+
+<h3>Court of Honour</h3>
+<ul>
+    <li>Ivona Tenšek, Master of Law, Catholic University of Croatia</li>
+    <li>
+        Valerija Olić, MSc in Engineering, Faculty of Electrical Engineering and
+        Computing
+    </li>
+    <li>
+        Marko Tucaković, Faculty of Electrical Engineering and Computing Library
+    </li>
+</ul>
+
+<h3>Awards Committee</h3>
+<ul>
+    <li>Marijana Glavica, Faculty of Humanities and Social Sciences Library</li>
+    <li>Ivona Tenšek, Master of Law, Catholic University of Croatia</li>
+    <li>
+        Andrei Zvonimir Crnković, Certified Accountant, Pametno Računovodstvo
+        d.o.o.
+    </li>
+</ul>
+
+<h3>DORS/CLUC Organizing Committee</h3>
+<ul>
+    <li>Bruno Banelli</li>
+    <li>Svebor Prstačić</li>
+    <li>Andrei Zvonimir Crnković</li>
+    <li>Valerija Olić</li>
+    <li>Vedran Lebo</li>
+    <li>Marija Dropulja</li>
+</ul>
+
+<p><strong>Liquidator:</strong> Svebor Prstačić</p>
+
+<hr />
+
+<h1>Latest bulletins</h1>
+
+<div class="posts-list">
+{{ with .Site.GetPage "/news" }}
+    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post">
+            <p>
+                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+            </p>
+        </div>
+    {{ end }}
+{{ end }}
+</div>
+
+
+{{ end }}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bulletin on HrOpen</title>
+    <link>http://localhost:1313/news/</link>
+    <description>Recent content in Bulletin on HrOpen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Izvanredna skupština</title>
+      <link>http://localhost:1313/news/2025-04-23-skupstina/</link>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/2025-04-23-skupstina/</guid>
+      <description>&lt;p&gt;Postignut je koncenzus za termin izvanredne skupštine, te se cijenjene članove poziva:&lt;/p&gt;&#xA;&lt;p&gt;datuma 7. svibnja 2025. u 16:00&lt;/p&gt;&#xA;&lt;p&gt;da prisustvuju izvanrednoj skupštini te redovnom sastanku udruge.&lt;/p&gt;&#xA;&lt;p&gt;Na ovoj skupštini izglasavati će se izmjene Statua Udruge, te shodno odluci o prihvaćanju izmjena Statua održati će se glasanje o mandatu tijela Udruge.&lt;/p&gt;&#xA;&lt;p&gt;Potpuni potpis izmjena, te Odluku Upravnog odobora preuzmite &lt;a href=&#34;http://localhost:1313/files/odluka-o-izmjeni-statuta.pdf&#34;&gt;ovjde&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Podsjećamo na molbu za sve zainteresirane kandidate da dostave svoju izbornu listu i plan rada na adresu udruge ili na adresu &lt;a href=&#34;mailto:uo@open.hr&#34;&gt;uo@open.hr&lt;/a&gt; do 2. travnja 2025., do 12:00 sati.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
