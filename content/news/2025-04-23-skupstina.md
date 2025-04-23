@@ -11,6 +11,6 @@ da prisustvuju izvanrednoj skupštini te redovnom sastanku udruge.
 
 Na ovoj skupštini izglasavati će se izmjene Statua Udruge, te shodno odluci o prihvaćanju izmjena Statua održati će se glasanje o mandatu tijela Udruge.
 
-Potpuni potpis izmjena, te Odluku Upravnog odobora preuzmite [ovjde](/files/odluka-o-izmjeni-statuta.pdf).
+Potpuni potpis izmjena, te Odluku Upravnog odobora preuzmite [ovdje](/files/odluka-o-izmjeni-statuta.pdf).
 
-Podsjećamo na molbu za sve zainteresirane kandidate da dostave svoju izbornu listu i plan rada na adresu udruge ili na adresu uo@open.hr do 2. travnja 2025., do 12:00 sati.
+Podsjećamo na molbu za sve zainteresirane kandidate da dostave svoju izbornu listu i plan rada na adresu udruge ili na adresu uo@open.hr do 2. svibnja 2025., do 12:00 sati.
