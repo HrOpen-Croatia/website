@@ -5,7 +5,7 @@ date = "2025-04-23"
 
 Postignut je koncenzus za termin izvanredne skupštine, te se cijenjene članove poziva:
 
-datuma 7. svibnja 2025. u 16:00
+datuma 12. svibnja 2025. u 16:00
 
 da prisustvuju izvanrednoj skupštini te redovnom sastanku udruge.
 
