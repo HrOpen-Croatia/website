@@ -5,7 +5,9 @@ date = "2025-04-23"
 
 Postignut je koncenzus za termin izvanredne skupštine, te se cijenjene članove poziva:
 
-datuma 12. svibnja 2025. u 16:00
+datuma 21. svibnja 2025. u 15:00
+
+u dvorani konresnog centra Sveučilišta Algrebra Bernays
 
 da prisustvuju izvanrednoj skupštini te redovnom sastanku udruge.
 
