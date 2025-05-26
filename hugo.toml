@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "https://open.hr/"
 title = "HrOpen"
 theme = "hugo-theme-console"
 languageCode = "en-us"
